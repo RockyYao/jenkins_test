@@ -4,10 +4,10 @@ import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class JenkinsGithubApplicationTests {
+public class JenkinsGithubApplicationTests {
 
     @Test
-    void contextLoads() {
+   public void contextLoads() {
         System.out.println("执行单元测试");
     }
 
